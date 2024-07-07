@@ -14,7 +14,7 @@ It also features a small auto sleep function which will turn off the solenoids i
 
 ## Hardware
 
-In the circuit pictured above, this is how each channel is laid out. One of these channel maps the pwm output of the pico to a solenoid using a MOSFET. It is quite reliable. It can supposedly be even better if you add a logic gate driver but I am not sure how to do it, so please open up an issue or PR if you know how to improve on it. Here is what each of those channels look like [in a schematic](solenoid_channel_schematic.png):
+In the circuit pictured above, this is how each channel is laid out. One of these channel maps the pwm output of the pico to a solenoid using a MOSFET. It is quite reliable. It can supposedly be even better if you add a logic gate driver but I am not sure how to do it, so please open up an issue or PR if you know how to improve on it. Here is what each of those channels look like [in a schematic](hardware/mosfet_based_solenoid_voice.kicad_sch):
 
 ![Solenoid channel](solenoid_channel_schematic.png)
 
